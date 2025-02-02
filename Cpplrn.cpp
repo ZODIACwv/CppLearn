@@ -1,4 +1,24 @@
-﻿#include <iostream>
+﻿#include <stdio.h>
+
+__declspec(naked) int add(int a, int b) {
+	__asm {
+		mov eax, ecx  // В x64 первый аргумент (a) передается в RCX (ECX в 32-битном режиме)
+		add eax, edx  // Второй аргумент (b) передается в RDX (EDX в 32-битном режиме)
+		ret           // Возвращаем значение через EAX
+	}
+}
+
+int main() {
+	printf("Sum: %d\n", add(10, 20));
+	return 0;
+}
+
+
+
+
+
+
+/*#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -48,3 +68,4 @@ int main()
 
 	cout << *dict.TryGetValueByKey("Dasha") << endl;
 }
+*/

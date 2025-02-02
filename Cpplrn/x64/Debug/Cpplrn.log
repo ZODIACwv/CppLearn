@@ -1,14 +1,15 @@
 ﻿  Cpplrn.cpp
-C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(34,12): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-      C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(34,12):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(44,21):
-          выполняется компиляция ссылки на экземпляр класс шаблон функции "Dictionary<std::string>"
-          C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(31,6):
-          во время компиляции функции-члена класс шаблон "int Dictionary<std::string>::ContainKey(std::string)"
-              C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(17,3):
-              см. первую ссылку на Dictionary<std::string>::ContainKey "Dictionary<std::string>::AddKey"
-              C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(45,13):
-              см. первую ссылку на Dictionary<std::string>::AddKey "main"
-  
-  Cpplrn.vcxproj -> C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\x64\Debug\Cpplrn.exe
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(3,12): error C2485: "__declspec(идентификатор)" не является распознаваемым расширенным атрибутом
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(4,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,3): error C2065: mov: необъявленный идентификатор
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,7): error C2065: eax: необъявленный идентификатор
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,12): error C2065: ecx: необъявленный идентификатор
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,3): warning C4551: в вызове функции отсутствует список аргументов
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,7): error C2065: eax: необъявленный идентификатор
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,12): error C2065: edx: необъявленный идентификатор
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(7,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ret"
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(7,3): error C2065: ret: необъявленный идентификатор
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(8,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
