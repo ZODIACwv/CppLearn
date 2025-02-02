@@ -1,2 +1,14 @@
 ﻿  Cpplrn.cpp
-  Cpplrn.vcxproj -> C:\Projects\Visual Studio\CPP\Cpplrn\x64\Debug\Cpplrn.exe
+C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(34,12): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+      C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(34,12):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(44,21):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Dictionary<std::string>"
+          C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(31,6):
+          во время компиляции функции-члена класс шаблон "int Dictionary<std::string>::ContainKey(std::string)"
+              C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(17,3):
+              см. первую ссылку на Dictionary<std::string>::ContainKey "Dictionary<std::string>::AddKey"
+              C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\Cpplrn.cpp(45,13):
+              см. первую ссылку на Dictionary<std::string>::AddKey "main"
+  
+  Cpplrn.vcxproj -> C:\Users\kiber\OneDrive\Документы\GitHub\CppLearn\x64\Debug\Cpplrn.exe

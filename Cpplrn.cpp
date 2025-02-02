@@ -10,20 +10,29 @@ public:
 	}
 
 	T* TryGetValueByKey(string key) {
-		return ContainKey(key) ? &value : nullptr;
+		return ContainKey(key) != -1 ? &value : nullptr;
 	}
 
 	void AddKey(string key) {
-		if (!ContainKey(key))
+		if (ContainKey(key) == -1)
 			keys.push_back(key);
 	}
 
+	void RemoveKey(string key) {
+		keys.erase(keys.begin() + ContainKey(key));
+	}
+
+	void PrintAllKeys() {
+		for (string e : keys)
+			cout << e << endl;
+	}
+
 private:
-	bool ContainKey(string key) {
+	int ContainKey(string key) {
 		for (size_t i{}; i < keys.size(); i++)
 			if (keys[i] == key)
-				return true;
-		return false;
+				return i;
+		return -1;
 	}
 
 	T value;
@@ -36,5 +45,6 @@ int main()
 	dict.AddKey("Dasha");
 	dict.AddKey("Vadim");
 
-	cout << dict.TryGetValueByKey("SerGay") << endl << *dict.TryGetValueByKey("Dasha") << endl;
+
+	cout << *dict.TryGetValueByKey("Dasha") << endl;
 }
