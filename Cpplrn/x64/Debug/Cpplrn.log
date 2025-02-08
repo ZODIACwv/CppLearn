@@ -1,15 +1,2 @@
 ﻿  Cpplrn.cpp
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(3,12): error C2485: "__declspec(идентификатор)" не является распознаваемым расширенным атрибутом
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(4,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,3): error C2065: mov: необъявленный идентификатор
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,7): error C2065: eax: необъявленный идентификатор
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(5,12): error C2065: ecx: необъявленный идентификатор
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,3): warning C4551: в вызове функции отсутствует список аргументов
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,7): error C2065: eax: необъявленный идентификатор
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(6,12): error C2065: edx: необъявленный идентификатор
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(7,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ret"
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(7,3): error C2065: ret: необъявленный идентификатор
-C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(8,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  Cpplrn.vcxproj -> C:\Projects\Visual Studio\CPP\Cpplrn\x64\Debug\Cpplrn.exe

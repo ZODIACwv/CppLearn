@@ -1,2 +1,2 @@
 ﻿  Cpplrn.cpp
-  Cpplrn.vcxproj -> C:\Projects\Visual Studio\CPP\Cpplrn\Debug\Cpplrn.exe
+C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn.cpp(1,1): error C1090: Произошел сбой при вызове API PDB, код ошибки "3": C:\Projects\Visual Studio\CPP\Cpplrn\Cpplrn\Debug\vc143.pdb

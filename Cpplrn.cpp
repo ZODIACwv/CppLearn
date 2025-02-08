@@ -1,15 +1,26 @@
-﻿#include <stdio.h>
-
+﻿#include <iostream>
+#include <cmath>
+using namespace std;
+/*
 __declspec(naked) int add(int a, int b) {
 	__asm {
 		mov eax, ecx  // В x64 первый аргумент (a) передается в RCX (ECX в 32-битном режиме)
 		add eax, edx  // Второй аргумент (b) передается в RDX (EDX в 32-битном режиме)
 		ret           // Возвращаем значение через EAX
 	}
+}*/
+
+int f(unsigned n) {
+	if (n < 15) return n;
+	else return f(n % 15) * f(n / 15);
 }
 
 int main() {
-	printf("Sum: %d\n", add(10, 20));
+	unsigned long c = 0;
+
+	for (int i{}; i < pow(3, 40); i++)
+		if (f(i) == 7560) c++;
+	cout << c << endl;
 	return 0;
 }
 
